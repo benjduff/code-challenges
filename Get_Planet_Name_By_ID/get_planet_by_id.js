@@ -1,3 +1,5 @@
+// getPlanetName(3); // should return 'Earth'
+
 function getPlanetName(id){
     switch(id){
       case 1:
