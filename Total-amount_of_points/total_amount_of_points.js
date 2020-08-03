@@ -23,7 +23,6 @@ function points(games) {
   games.forEach(game => {
       x = game.charAt(0);
       y = game.charAt(2);
-
       if(x>y) home += 3;
       if(x == y) home++;
   });
